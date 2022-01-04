@@ -1,8 +1,7 @@
 html {
-    background-color: rgb(70,70,78)
+    font-family: sans-serif;
+    background-color: rgb(30,30,35);
 }
-
-canvas {
-    padding: none;
-    margin: none;
+body {
+    color: white;
 }

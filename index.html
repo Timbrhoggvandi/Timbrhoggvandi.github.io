@@ -2,13 +2,20 @@
 <html>
     <head lang="en-US">
         <meta charset="utf-8">
-        <title>Terrain</title>
+        <title>World Generation</title>
         <link rel="stylesheet" href="styles/styles.css">
         <script src="scripts/scripts.js" defer></script>
     </head>
     <body>
-        <canvas id="myCanvas">
-        </canvas>
-        <button onclick="changeBrush()">Change Brush</button>
+        <h1>World Generator</h1>
+        <p id="instructions">Enter the dimensions of the world</p>
+        <label for="xdim">x dimension: </label>
+        <input type="text" id="xdim" value="500"><br>
+        <label for="ydim">y dimension: </label>
+        <input type="text" id="ydim" value="500"><br>
+        <button onclick='generateMaps()'>Generate Maps</button><br>
+        <canvas id="heightMap" width="500" height = "500"></canvas>
+        <canvas id="tempMap" width="500" height = "500"></canvas>
+        <canvas id="fullMap" width="500" height = "500"></canvas>
     </body>
 </html>
