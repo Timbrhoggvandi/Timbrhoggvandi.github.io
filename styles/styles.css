@@ -1,9 +1,0 @@
-html {
-    background-color: rgb(70,70,78)
-}
-
-canvas {
-    padding: none;
-    margin: none;
-    image-rendering: pixelated;
-}
